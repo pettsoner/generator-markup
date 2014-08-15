@@ -1,0 +1,8 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "<%= pkg.version %>",
+  "dependencies": {
+    "jquery": "~1.10.2"
+  }
+}
+

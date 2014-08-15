@@ -1,0 +1,20 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "<%= pkg.version %>",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-stylus": "*",
+    "gulp-zip": "*",
+    "gulp-gh-pages": "*",
+    "gulp-rename": "*",
+    "gulp-html-prettify": "*",
+    "gulp-jade": "*",
+    "gulp-webserver": "*",
+    "dateformat": "*",
+    "nib": "*"
+  },
+  "keywords": [
+    "<%= _.slugify(appName) %>"
+  ],
+  "license": "MIT"
+}
